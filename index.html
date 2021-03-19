@@ -1,0 +1,26 @@
+ <!DOCTYPE html>
+<html>
+<title>jquery slide up down</title>
+<script src="jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+
+    $("img").hide();
+        $("#button").click(function(){
+            $("img").slideDown(2000);
+        });
+
+        $("#button01").click(function(){
+            $("img").slideUp(2000);  
+        });
+        
+});
+
+</script>
+<body>
+    <button id="button">Slide Down</button>
+    <button id="button01">Slide Up</button>
+    <br>
+    <img src="unnamed800.jpg" width="300px" alt="">
+</body>
+</html> 
